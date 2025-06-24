@@ -1,0 +1,3 @@
+[submodule "replayweb-template"]
+	path = replayweb-template
+	url = https://github.com/hexcamp/replayweb-template.git

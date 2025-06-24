@@ -1,3 +1,5 @@
 *.warc.gz
 venv
 *.swp
+dist
+.env

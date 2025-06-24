@@ -5,332 +5,332 @@ export PATH=$PWD/venv/bin:$PATH
 
 mkdir -p data
 
-echo Burnside Gorge
 if false; then
+  echo Burnside Gorge
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix burnsidegorge \
       'burnsidegorge.ca/*' 
 fi
 
-echo Downtown Residents
 if false; then
+  echo Downtown Residents
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix downtownresidents \
       'www.victoriadra.ca/*'
 fi
 
-echo Fairfield Gonzalez
 if false; then
+  echo Fairfield Gonzalez
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix fairfield \
       'fairfieldcommunity.ca/*' 
 fi
 
-echo Fernwood NRG
 if false; then
+  echo Fernwood NRG
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix fernwoodnrg \
       'fernwoodnrg.ca/*'
 fi
 
-echo Fernwood Community and Arts
 if false; then
+  echo Fernwood Community and Arts
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix fernwoodca \
       'thefca.ca/*' 
 fi
 
-echo Quadra Village
 if false; then
+  echo Quadra Village
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix quadravillage \
       'www.qvcc.ca/*' 
 fi
 
-echo James Bay
 if false; then
+  echo James Bay
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix jamesbay \
       'www.jbna.org/*' 
 fi
 
-echo North Jubilee
 if false; then
+  echo North Jubilee
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix northjubilee \
       'www.njna-victoria.net/*' 
 fi
 
-echo South Jubilee
 if false; then
+  echo South Jubilee
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix southjubilee \
       'southjubilee.ca/*' 
 fi
 
-echo North Park
 if false; then
+  echo North Park
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix northpark \
       'npna.ca/*' 
 fi
 
-echo Oaklands
 if false; then
+  echo Oaklands
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix oaklands \
       'oaklands.life/*' 
 fi
 
-echo Rockland
 if false; then
+  echo Rockland
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix rockland \
       'rockland.bc.ca/*' 
 fi
 
-echo Victoria West
 if false; then
+  echo Victoria West
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix vicwest \
       'www.victoriawest.ca/*' 
 fi
 
-echo Blenkinsop Valley
 if false; then
+  echo Blenkinsop Valley
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix blenkinsop \
       'blenkinsopvalleycommunityassociation.ca/*' 
 fi
 
-echo Broadmead
 if false; then
+  echo Broadmead
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix broadmead \
       'broadmead.ca/*' 
 fi
 
-echo Cadboro Bay
 if false; then
+  echo Cadboro Bay
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix cadborobay \
       'cadboro.ca/*' 
 fi
 
-echo Camosun
 if false; then
+  echo Camosun
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix camosun \
       'camosuncommunityassociation.com/*' 
 fi
 
-echo Carey Area
 if false; then
+  echo Carey Area
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix carey \
       'www.careyarea.ca/*' 
 fi
 
-echo Cordova Bay
 if false; then
+  echo Cordova Bay
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix cordovabay \
       'cbaca.ca/*' 
 fi
 
-echo Falaise
 if false; then
+  echo Falaise
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix falaise \
       'www.falaise.ca/*' 
 fi
 
-echo Gordon Head
 if false; then
+  echo Gordon Head
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix gordonhead \
       'gordonhead.ca/*' 
 fi
 
-echo Gorge Tillicum
 if false; then
+  echo Gorge Tillicum
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix gorgetillicum \
       'www.gorgetillicum.ca/*' 
 fi
 
-echo Mount Tolmie
 if false; then
+  echo Mount Tolmie
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix mounttolmie \
       'mtca.ca/*' 
 fi
 
-echo Mount View Colquitz
 if false; then
+  echo Mount View Colquitz
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix mountviewcolquitz \
       'mvcca.ca/*' 
 fi
 
-echo North Quadra
 if false; then
+  echo North Quadra
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix northquadra \
       'www.northquadra.ca/*' 
 fi
 
-echo Prospect Lake
-if false; then
+if true; then
+  echo Prospect Lake
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix prospectlake \
-      'pldca.ca/*' 
+      'pldca.com/*' 
 fi
 
-echo Quadra Cedar Hill
 if false; then
+  echo Quadra Cedar Hill
   time cdxt \
       --crawl 3 \
       -vv \
       --limit 1000 \
       warc \
-      --prefix commassocs \
+      --prefix data/commassocs \
       --subprefix quadracedarhill \
       'qchca.org/*' 
 fi
 
-echo Royal Oak
-if true; then
+if false; then
+  echo Royal Oak
   time cdxt \
       --crawl 3 \
       -vv \
@@ -340,11 +340,4 @@ if true; then
       --subprefix royaloak \
       'www.royaloakcommunityassociation.ca/*' 
 fi
-
-
-
-
-
-
-
 
