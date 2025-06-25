@@ -1,3 +1,6 @@
 [submodule "replayweb-template"]
 	path = replayweb-template
 	url = https://github.com/hexcamp/replayweb-template.git
+[submodule "vichex-map-template"]
+	path = vichex-map-template
+	url = https://github.com/hexcamp/vichex-map-template.git

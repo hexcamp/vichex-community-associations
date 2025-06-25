@@ -3,3 +3,4 @@ venv
 *.swp
 dist
 .env
+tmp

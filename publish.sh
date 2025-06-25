@@ -2,8 +2,8 @@
 
 . .env
 
+# Common Crawl Archives
 IFS=","
-
 while read HEX NAME FULL_NAME; do
     echo $HEX - $NAME - $FULL_NAME
     mkdir -p dist/$HEX-$NAME
@@ -13,6 +13,14 @@ while read HEX NAME FULL_NAME; do
     cp ../../data/commassocs-$NAME-000000.extracted.warc.gz archive.warc.gz
     cd ../..
 done < hexagons.csv
+
+# Map
+MAP_HEX=6kgruaaeaaaa
+mkdir -p dist/$MAP_HEX-map
+cd dist/$MAP_HEX-map
+cp -a ../../vichex-map-template/build/* .
+cd ../..
+./gen-data-for-map.sh
 
 CID=$(ipfs add -q -r dist | tail -1)
 echo CID: $CID
